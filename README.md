@@ -12,15 +12,21 @@
 * Java Development Kit (JDK) がインストールされているPC
 
 ## 実行方法
+```
 git clone https://github.com/MuscleEscaper/EscapeFromGym.git
-
-cd EscapeFromGym/EscapeFromGym
-
+```
+```
+cd EscapeFromGym
+```
+```
 mkdir bin
-
-javac -d bin src/*.java
-
+```
+```
+javac -encoding UTF-8 -d bin src/*.java
+```
+```
 java -cp bin EscapeGameOpening
+```
 
 ## トラブルシューティング
 Q. 画像が表示されない
